@@ -1,0 +1,127 @@
+{
+  "name": "Planejamento Financeiro",
+  "short_name": "Financeiro",
+  "description": "Sistema completo de planejamento financeiro pessoal com multi-moeda, projetos, alertas e gamificação",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "categories": ["finance", "productivity", "business"],
+  "icons": [
+    {
+      "src": "/icon-72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-1.png",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/screenshot-2.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Nova Despesa",
+      "short_name": "Despesa",
+      "description": "Adicionar nova despesa rapidamente",
+      "url": "/despesas/nova",
+      "icons": [{ "src": "/icon-add-expense.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Nova Receita",
+      "short_name": "Receita",
+      "description": "Adicionar nova receita rapidamente",
+      "url": "/receitas/nova",
+      "icons": [{ "src": "/icon-add-income.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Dashboard",
+      "short_name": "Dashboard",
+      "description": "Ver resumo financeiro",
+      "url": "/dashboard",
+      "icons": [{ "src": "/icon-dashboard.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Backup",
+      "short_name": "Backup",
+      "description": "Criar backup dos dados",
+      "url": "/backup",
+      "icons": [{ "src": "/icon-backup.png", "sizes": "96x96" }]
+    }
+  ],
+  "share_target": {
+    "action": "/share",
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  },
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "iarc_rating_id": "",
+  "features": [
+    "offline-support",
+    "background-sync",
+    "push-notifications",
+    "install-prompt"
+  ]
+}

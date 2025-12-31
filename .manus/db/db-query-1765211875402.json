@@ -1,0 +1,100 @@
+{
+  "query": "SELECT id, itemId, month, year, person, plannedValue, actualValue FROM entries WHERE month = 12 AND year = 2025 LIMIT 10",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user GxFHLtgeo9QUgDq.28f04ff0947e --database TJXgHi4PjdM3wSBpz5Y2TJ --execute SELECT id, itemId, month, year, person, plannedValue, actualValue FROM entries WHERE month = 12 AND year = 2025 LIMIT 10",
+  "rows": [
+    {
+      "id": "60010",
+      "itemId": "19",
+      "month": "12",
+      "year": "2025",
+      "person": "marielly",
+      "plannedValue": "50000",
+      "actualValue": "50000"
+    },
+    {
+      "id": "60011",
+      "itemId": "20",
+      "month": "12",
+      "year": "2025",
+      "person": "marielly",
+      "plannedValue": "200000",
+      "actualValue": "200000"
+    },
+    {
+      "id": "60012",
+      "itemId": "18",
+      "month": "12",
+      "year": "2025",
+      "person": "marielly",
+      "plannedValue": "64000",
+      "actualValue": "64000"
+    },
+    {
+      "id": "60013",
+      "itemId": "33",
+      "month": "12",
+      "year": "2025",
+      "person": "licius",
+      "plannedValue": "38760",
+      "actualValue": "38760"
+    },
+    {
+      "id": "90005",
+      "itemId": "19",
+      "month": "12",
+      "year": "2025",
+      "person": "marielly",
+      "plannedValue": "0",
+      "actualValue": "0"
+    },
+    {
+      "id": "90006",
+      "itemId": "20",
+      "month": "12",
+      "year": "2025",
+      "person": "marielly",
+      "plannedValue": "0",
+      "actualValue": "0"
+    },
+    {
+      "id": "90007",
+      "itemId": "18",
+      "month": "12",
+      "year": "2025",
+      "person": "marielly",
+      "plannedValue": "0",
+      "actualValue": "0"
+    },
+    {
+      "id": "90008",
+      "itemId": "33",
+      "month": "12",
+      "year": "2025",
+      "person": "licius",
+      "plannedValue": "0",
+      "actualValue": "0"
+    },
+    {
+      "id": "120005",
+      "itemId": "19",
+      "month": "12",
+      "year": "2025",
+      "person": "marielly",
+      "plannedValue": "0",
+      "actualValue": "0"
+    },
+    {
+      "id": "120006",
+      "itemId": "20",
+      "month": "12",
+      "year": "2025",
+      "person": "marielly",
+      "plannedValue": "0",
+      "actualValue": "0"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\titemId\tmonth\tyear\tperson\tplannedValue\tactualValue\n60010\t19\t12\t2025\tmarielly\t50000\t50000\n60011\t20\t12\t2025\tmarielly\t200000\t200000\n60012\t18\t12\t2025\tmarielly\t64000\t64000\n60013\t33\t12\t2025\tlicius\t38760\t38760\n90005\t19\t12\t2025\tmarielly\t0\t0\n90006\t20\t12\t2025\tmarielly\t0\t0\n90007\t18\t12\t2025\tmarielly\t0\t0\n90008\t33\t12\t2025\tlicius\t0\t0\n120005\t19\t12\t2025\tmarielly\t0\t0\n120006\t20\t12\t2025\tmarielly\t0\t0\n",
+  "stderr": "",
+  "execution_time_ms": 56
+}

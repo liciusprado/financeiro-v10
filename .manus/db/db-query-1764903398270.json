@@ -1,0 +1,9 @@
+{
+  "query": "SELECT id, name, customCategory FROM items WHERE customCategory = 'Categoria Para Deletar';",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user GxFHLtgeo9QUgDq.28f04ff0947e --database TJXgHi4PjdM3wSBpz5Y2TJ --execute SELECT id, name, customCategory FROM items WHERE customCategory = 'Categoria Para Deletar';",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 54
+}

@@ -1,0 +1,1 @@
+ALTER TABLE `items` ADD `customCategory` varchar(100);

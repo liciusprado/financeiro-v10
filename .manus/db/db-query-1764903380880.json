@@ -1,0 +1,18 @@
+{
+  "query": "SELECT * FROM categories WHERE name LIKE '%Deletar%' OR name LIKE '%deletar%';",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user GxFHLtgeo9QUgDq.28f04ff0947e --database TJXgHi4PjdM3wSBpz5Y2TJ --execute SELECT * FROM categories WHERE name LIKE '%Deletar%' OR name LIKE '%deletar%';",
+  "rows": [
+    {
+      "id": "30002",
+      "name": "Categoria Para Deletar",
+      "type": "income",
+      "color": "blue",
+      "orderIndex": "0",
+      "createdAt": "2025-12-04 02:17:02"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tname\ttype\tcolor\torderIndex\tcreatedAt\n30002\tCategoria Para Deletar\tincome\tblue\t0\t2025-12-04 02:17:02\n",
+  "stderr": "",
+  "execution_time_ms": 79
+}

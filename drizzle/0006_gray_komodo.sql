@@ -1,0 +1,20 @@
+CREATE TABLE `user_settings` (
+	`id` int AUTO_INCREMENT NOT NULL,
+	`user_id` int NOT NULL,
+	`color_tabs` varchar(20) DEFAULT '#3b82f6',
+	`color_buttons` varchar(20) DEFAULT '#3b82f6',
+	`color_text` varchar(20) DEFAULT '#ffffff',
+	`color_background` varchar(20) DEFAULT '#0f172a',
+	`font_size` int DEFAULT 16,
+	`font_family` varchar(100) DEFAULT 'Inter',
+	`chart_type` enum('pie','bar','doughnut') DEFAULT 'pie',
+	`chart_show_labels` boolean DEFAULT true,
+	`chart_show_values` boolean DEFAULT true,
+	`auto_backup_enabled` boolean DEFAULT false,
+	`auto_backup_frequency` enum('daily','weekly','monthly') DEFAULT 'weekly',
+	`last_backup_at` timestamp,
+	`created_at` timestamp NOT NULL DEFAULT (now()),
+	`updated_at` timestamp NOT NULL DEFAULT (now()) ON UPDATE CURRENT_TIMESTAMP,
+	CONSTRAINT `user_settings_id` PRIMARY KEY(`id`),
+	CONSTRAINT `user_settings_user_id_unique` UNIQUE(`user_id`)
+);
