@@ -15,7 +15,7 @@
     "db:seed": "node scripts/seed.js",
     "db:reset": "node scripts/reset.js",
     "db:backup": "node scripts/backup.js",
-    "setup": "node scripts/setup.js",
+    "setup": "node scripts/setup.js"
    
   },
   "dependencies": {
